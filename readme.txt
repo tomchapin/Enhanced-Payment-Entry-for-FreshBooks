@@ -4,7 +4,7 @@ Enhanced Payment Entry for Freshbooks (version 0.0.1)
 The goal of this app is to help Freshbooks users enter received
 payments (such as checks) and apply them to client invoices in Freshbooks.
 
-Some of the features include:
+Some of the features will include:
  - Multi-step wizard
  - Mass entry of payments all from one screen (broken down per-client)
  - Intelligent automated application of payments to invoices (attempts to
