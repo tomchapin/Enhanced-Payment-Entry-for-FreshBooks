@@ -21,7 +21,8 @@ Author: Tom Chapin (tchapin@gmail.com)
 Git: http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks
 -----------------------------------------------------------------------------
 Third-Party Libraries Used:
- - Freshbooks PHP Library (http://code.google.com/p/freshbooks-php-library/
+ - Freshbooks PHP Library (http://code.google.com/p/freshbooks-php-library/)
+ - QuickBase (http://github.com/ashrewdmint/quickbase)
 -----------------------------------------------------------------------------
 
 Server Requirements:
