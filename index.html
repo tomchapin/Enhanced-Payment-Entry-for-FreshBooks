@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>tomchapin/Enhanced-Payment-Entry-for-FreshBooks @ GitHub</title>
+	
+	<style type="text/css">
+		body {
+  		margin-top: 1.0em;
+  		background-color: #68dbd2;
+		  font-family: "Helvetica,Arial,FreeSans"; 
+  		color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+		h1 { font-size: 3.8em; color: #97242d; margin-bottom: 3px; }
+		h1 .small { font-size: 0.4em; }
+		h1 a { text-decoration: none }
+		h2 { font-size: 1.5em; color: #97242d; }
+    h3 { text-align: center; color: #97242d; }
+    a { color: #97242d; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+		pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	</style>
+	
+</head>
+
+<body>
+  <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+      
+    <h1><a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks">Enhanced-Payment-Entry-for-FreshBooks</a> 
+      <span class="small">by <a href="http://github.com/tomchapin">tomchapin</a></span></h1>
+
+    <div class="description">
+      The goal of this app is to help Freshbooks users enter received payments (such as checks) and apply them to client invoices in Freshbooks.  (Please see readme file for additional details)
+    </div>
+
+    <p>The goal of this app is to help Freshbooks users enter received
+payments (such as checks) and apply them to client invoices in Freshbooks.
+
+Some of the features will include:
+ - Multi-step wizard
+ - Mass entry of payments all from one screen (broken down per-client)
+ - Intelligent automated application of payments to invoices (attempts to
+   pay off oldest invoices first, and even handles spanning payments across
+   multiple invoices). User is also able to manually allocate payments.
+ - Notifies clients by email after payments have been applied
+ 
+IMPORTANT: THIS APPLICATION IS NOT CURRENTLY FUNCTIONAL!!! Please check back soon!</p><h2>Dependencies</h2>
+<p>PHP 5
+Curl
+MySQL
+Freshbooks</p>
+<h2>Install</h2>
+<p>1. Set up a MySQL database and import the initial_mysql_database.sql file
+   so that you have the required structure and initial data.
+
+2. Copy the config.example.php file to "config.php" and edit
+   it to enter your database connection information, as well
+   as your Freshbooks API url and authorization key.
+   For more information, please see:
+   http://developers.freshbooks.com/blog/view/wheres_my_api_key/
+
+3. Change the server permissions for the /log/ and /tmp/ folders to have
+   0777 (write,read,execute) permissions.
+   
+4. Access the application by loading the index.php file in the root folder.</p>
+<h2>License</h2>
+<p>Copyright (C) 2009 Tom Chapin
+Email: tchapin@gmail.com
+Web Site: http://www.tchapin.com
+Social Networks: http://www.dandyid.org/id/tomchapin
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version. You may not resell this software
+in any shape or form, either in whole, or in part.
+ 
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.</p>
+<h2>Authors</h2>
+<p>Tom Chapin (tchapin@gmail.com)<br/><br/>      </p>
+<h2>Contact</h2>
+<p>Tom Chapin (tchapin@gmail.com)<br/>      </p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks/zipball/master">zip</a> or
+      <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks</pre>
+    </p>
+      
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks">tomchapin/Enhanced-Payment-Entry-for-FreshBooks</a>
+    </div>
+    
+  </div>
+
+  
+</body>
+</html>
