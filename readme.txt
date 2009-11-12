@@ -11,9 +11,9 @@ Some of the features will include:
    pay off oldest invoices first, and even handles spanning payments across
    multiple invoices). User is also able to manually allocate payments.
  - Notifies clients by email after payments have been applied
- 
+
 IMPORTANT: THIS APPLICATION IS NOT CURRENTLY FUNCTIONAL!!! Please check back soon!
- 
+
 -----------------------------------------------------------------------------
 Author: Tom Chapin (tchapin@gmail.com)
         http://www.tchapin.com
@@ -23,6 +23,11 @@ Git: http://github.com/tomchapin/Enhanced-Payment-Entry-for-FreshBooks
 Third-Party Libraries Used:
  - Freshbooks PHP Library (http://code.google.com/p/freshbooks-php-library/)
  - QuickBase (http://github.com/ashrewdmint/quickbase)
+-----------------------------------------------------------------------------
+Additional Notes:
+ This application is based on the "Freshbooks API Project Launcher for PHP"
+ project, which can be found at the following URL:
+ http://github.com/tomchapin/Freshbooks-API-Project-Launcher-for-PHP
 -----------------------------------------------------------------------------
 
 Server Requirements:
