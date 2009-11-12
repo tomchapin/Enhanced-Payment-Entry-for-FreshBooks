@@ -8,7 +8,7 @@ function log_message_and_die($message=""){
 	exit;
 }
 
-// This function will write a message to the log file
+// This function will write a message to the log file with a timestamp
 function log_message($message=""){
 	global $AppVariables;
 	$filename = $AppVariables['ErrorLog'];

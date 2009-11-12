@@ -3,7 +3,7 @@
 // Array for holding global variables (access within functions by running: global $AppVariables;
 $AppVariables = array();
 
-// Determine absolute system path to the applications's working folder
+// Determine absolute system path to the application's working folder
 $AppVariables['AppPath'] = realpath('./');
 
 // Paths to log files
