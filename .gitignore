@@ -1,6 +1,5 @@
 .DS_Store
 _notes
-log/*
 log/*.log
 tmp/**/*
 db/*.sqlite3
