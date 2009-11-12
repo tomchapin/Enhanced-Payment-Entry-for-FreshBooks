@@ -1,9 +1,7 @@
 <?php
 
 // Array for holding global variables (access within functions by running: global $AppVariables;
-if(!isset($AppVariables)){
-	$AppVariables = array();
-}
+$AppVariables = array();
 
 // Determine absolute system path to the applications's working folder
 $AppVariables['AppPath'] = realpath('./');
