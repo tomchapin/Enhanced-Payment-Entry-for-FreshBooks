@@ -12,6 +12,8 @@ Some of the features will include:
    multiple invoices). User is also able to manually allocate payments.
  - Notifies clients by email after payments have been applied
  
+IMPORTANT: THIS APPLICATION IS NOT CURRENTLY FUNCTIONAL!!! Please check back soon!
+ 
 -----------------------------------------------------------------------------
 Author: Tom Chapin (tchapin@gmail.com)
         http://www.tchapin.com
@@ -30,7 +32,6 @@ Server Requirements:
  - Freshbooks API access
 
 -----------------------------------------------------------------------------
-
 
 Instructions for installation/deployment:
 
